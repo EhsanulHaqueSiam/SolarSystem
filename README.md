@@ -20,6 +20,13 @@ you set up the development environment on macOS, Windows, and Linux using CLion,
 - **Ninja Build tools** (for VSCode) - [Ninja Releases](https://github.com/ninja-build/ninja/releases) ⚙️
 
 ---
+## Installing System Dependencies (Linux) 🐧
+```sh
+sudo apt-get update
+sudo apt-get install -y build-essential libxi-dev libxrandr-dev libxinerama-dev libxcursor-dev libgl1-mesa-dev libglu1-mesa-dev
+```
+
+---  
 
 ## Installing Ninja Build Tools (for VSCode on Windows)  🏗️
 

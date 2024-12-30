@@ -1,8 +1,6 @@
-#include <iostream>
 #include <GL/glew.h>
 #include <GL/freeglut.h>
 #include <GL/glext.h>
-#include "imageloader.h"
 #include "planet.h"
 #include "InputHandler.h"
 #include "SolarSystem.h"
@@ -49,7 +47,7 @@ int main(int argc, char **argv) {
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA | GLUT_DEPTH);
 #endif
 
-    glutInitWindowSize(700, 700);
+    glutInitWindowSize(1100, 1020);
     glutInitWindowPosition(500, 0);
     glutCreateWindow("Solar System");
     glutDisplayFunc(drawScenesInOrder);
